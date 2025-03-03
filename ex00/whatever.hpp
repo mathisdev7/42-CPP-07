@@ -14,13 +14,13 @@
 #pragma once
 
 template <typename T>
-T &max(T x, T y)
+T max(T x, T y)
 {
 	return (x >= y) ? x : y;
 }
 
 template <typename Y>
-Y &min(Y x, Y y)
+Y min(Y x, Y y)
 {
 	return (x >= y) ? y : x;
 }
